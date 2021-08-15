@@ -1,4 +1,4 @@
-#XML reader
+# XML reader
 
 Used core PHP and MVC architecture for both cron link and listing records.
 Used singleton pattern for database.
@@ -12,18 +12,18 @@ Controller = classes folder
 
 Used autoloader file to auto include all classes.
 
-Cron Working
+## Cron Working
 Iterating over the provided folder location using iterator and reading each XML file to update it in the database.
 
-Search Working
+## Search Working
 Get a request for the search hit to the server. Request goes to the Books model and gets a response using a single query.
 
-Login Credentials:
+## Login Credentials:
 Username: admin
 Password: admin
 For login authentication no database is used. It’s saved in the config file.
 
-Table Schema:
+## Table Schema:
 
 CREATE TABLE authors (
 id serial PRIMARY KEY,
