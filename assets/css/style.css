@@ -1,0 +1,127 @@
+/*.main-page {
+	height: 100vh;
+	background: #d2d6de;
+}*/
+
+.main-box {
+	margin: 0px;
+	width: 100%;
+	background: #fff;
+}
+
+.form-wrapper {
+	height: 100vh;
+	display: table;
+	background: #fff;
+}
+
+.info-wrapper {
+	height: 100vh;
+	display: table;
+}
+
+/*.form-box {
+	display: table-cell;
+	vertical-align: middle;
+}*/
+
+.logo {
+	font-size: 35px;
+	text-align: left;
+	margin-bottom: 25px;
+	font-weight: 300;
+}
+
+.logo img {
+    max-width: 250px;
+    display: inline-block;
+}
+
+.error {
+	color: red;
+}
+
+.form-div {
+	display: table-cell;
+	vertical-align: middle;
+	margin: 12px;
+	background: #e2e2d9;	
+}
+
+.result .row {
+    border-bottom: 1px solid #ddd;
+    padding: 12px;
+}
+
+#slide {
+    /*position: absolute;*/
+    /*left: -100vw;*/
+    margin: 0px auto;
+    width: 50%;
+    height: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: justify;
+    -webkit-animation: fade 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: fade 0.5s forwards;
+	transition-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+    padding: 0;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-top: 50px;
+    opacity: 30%;
+}
+@-webkit-keyframes fade {
+    60% { opacity:60%; }
+    75% { opacity:75%; }
+    100% { opacity:100%; }
+}
+
+@keyframes fade {
+
+    60% { opacity:60%; }
+    75% { opacity:75%; }
+    100% { opacity:100%; }
+}
+
+.cneter-form {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.cneter-form .form-group {
+    margin-bottom: 15px;
+    margin-right: 11px;
+}
+
+.logout-btn {
+    padding: 20px;
+    text-align: right;
+}
+
+.login-box {
+    margin: 0 auto;
+    text-align: center;
+    /*width: 23%;*/
+}
+
+.logo-main {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.login-parent {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
